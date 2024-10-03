@@ -54,19 +54,11 @@ I'm currently working as Founder of KIT <br>I'm currently working on Backend Dev
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
  -->
 
-<div align="center">
 
   # GitHub Stats:
 
-  <div style="display: inline-block; margin: 10px;">
-    ![](https://github-readme-streak-stats.herokuapp.com/?user=AyoubDroubi&theme=dark&hide_border=false)
-  </div>
-
-  <div style="display: inline-block; margin: 10px;">
-    ![](https://github-readme-stats.vercel.app/api/top-langs/?username=AyoubDroubi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-  </div>
-
-</div>
+![](https://github-readme-streak-stats.herokuapp.com/?user=AyoubDroubi&theme=dark&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AyoubDroubi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=AyoubDroubi&theme=radical&no-frame=false&no-bg=true&margin-w=4)
