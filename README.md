@@ -53,6 +53,19 @@ I'm currently working as Founder of KIT <br>I'm currently working on Backend Dev
 ![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white) 
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
  -->
+<div align="center">
+
+  <div style="display: inline-block; margin: 10px;">
+    <h3>Element 1</h3>
+    <p>Description for element 1.</p>
+  </div>
+
+  <div style="display: inline-block; margin: 10px;">
+    <h3>Element 2</h3>
+    <p>Description for element 2.</p>
+  </div>
+
+</div>
 
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=AyoubDroubi&theme=dark&hide_border=false)
