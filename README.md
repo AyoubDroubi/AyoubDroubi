@@ -54,8 +54,9 @@ I'm currently working as Founder of KIT <br>I'm currently working on Backend Dev
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
  -->
 
-# 📊 GitHub Stats:
 <div align="center">
+
+  # GitHub Stats:
 
   <div style="display: inline-block; margin: 10px;">
     ![](https://github-readme-streak-stats.herokuapp.com/?user=AyoubDroubi&theme=dark&hide_border=false)
