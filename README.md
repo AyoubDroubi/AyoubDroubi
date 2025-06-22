@@ -1,5 +1,9 @@
 # 💫 About Me: [![](https://visitcount.itsvg.in/api?id=AyoubDroubi&icon=6&color=7)](https://visitcount.itsvg.in)
-I'm currently working as Founder of KIT <br>I'm currently working on Backend Developer in .Net, Angular and python<br>I want to be a Software Development Engineer<br>Fun fact about me: I'm a gamer, chess player, and ping pong player.
+I'm currently working as Founder of KIT <br>
+I'm currently working on Backend Developer in .Net and python<br>
+I'm currently working on Frontend Developer in Angular<br>
+I want to be a Software Development Engineer<br>
+Fun fact about me: I'm a gamer, chess player, and ping pong player.
 
 
 ## 🌐 Socials:
