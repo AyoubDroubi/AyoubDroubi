@@ -1,0 +1,57 @@
+name: Update daily commit activity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-daily-commits
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Verify private-repository token
+        env:
+          PROFILE_README_TOKEN: ${{ secrets.PROFILE_README_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_README_TOKEN" ]; then
+            echo "::error::Missing PROFILE_README_TOKEN. Add a fine-grained PAT with Contents: Read access to the repositories that should be counted."
+            exit 1
+          fi
+
+      - name: Generate exact daily commit chart
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_README_TOKEN }}
+          GH_USERNAME: AyoubDroubi
+          TIME_ZONE: Asia/Amman
+          ACTIVITY_DAYS: '30'
+        run: node .github/scripts/generate-daily-commits.mjs
+
+      - name: Commit refreshed chart
+        run: |
+          if git diff --quiet -- assets/daily-commits.svg assets/daily-commits.json; then
+            echo "No activity changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/daily-commits.svg assets/daily-commits.json
+          git commit -m "chore: refresh daily commit activity"
+          git push
