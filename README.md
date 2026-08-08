@@ -91,7 +91,23 @@ A personal, local-first execution and learning system where tasks, capture, habi
 
 [Research portfolio →](https://aldroubi.work/research) · [Google Scholar →](https://scholar.google.com/citations?hl=en&user=TL7us3AAAAAJ)
 
-## Recent public GitHub activity
+## GitHub activity & stats
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AyoubDroubi&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AyoubDroubi&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&theme=default" />
+  <img alt="Ayoub Aldroubi GitHub stats — commits, pull requests, issues and stars" src="https://github-readme-stats.vercel.app/api?username=AyoubDroubi&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github" height="180" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AyoubDroubi&hide_border=true&theme=github-dark-blue" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AyoubDroubi&hide_border=true&theme=default" />
+  <img alt="Ayoub Aldroubi GitHub contribution streak — total contributions, current streak and longest streak" src="https://streak-stats.demolab.com?user=AyoubDroubi&hide_border=true" height="180" />
+</picture>
+
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AyoubDroubi&bg_color=0d1117&color=c9d1d9&line=2f81f7&point=58a6ff&area=true&hide_border=true" />
@@ -99,7 +115,7 @@ A personal, local-first execution and learning system where tasks, capture, habi
   <img alt="Ayoub Aldroubi's recent public GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AyoubDroubi&bg_color=ffffff&color=24292f&line=0969da&point=0969da&area=true&hide_border=true" width="100%" />
 </picture>
 
-> A large part of my production engineering work lives in private repositories, so public-repository widgets are only one slice of my development activity.
+> GitHub widgets can undercount work in private repositories. The streak/contribution card can include private contribution activity when **Private contributions** is enabled on the GitHub profile, while exact private commit totals require an authenticated/self-hosted stats setup.
 
 ## Beyond code
 
