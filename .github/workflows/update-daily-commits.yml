@@ -45,7 +45,7 @@ jobs:
 
       - name: Commit refreshed chart
         run: |
-          if git diff --quiet -- assets/daily-commits.svg assets/daily-commits.json; then
+          if [ -z "$(git status --porcelain -- assets/daily-commits.svg assets/daily-commits.json)" ]; then
             echo "No activity changes to commit."
             exit 0
           fi
