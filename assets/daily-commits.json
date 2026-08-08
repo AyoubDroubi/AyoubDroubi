@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-08T12:30:00Z",
+    "username": "AyoubDroubi",
+    "timeZone": "Asia/Amman",
+    "source": "user-reported bootstrap",
+    "note": "The automated tracker replaces this bootstrap with a rolling 30-day authenticated history."
+  },
+  "days": [
+    { "date": "2026-08-07", "count": 322 },
+    { "date": "2026-08-08", "count": 254 }
+  ]
+}
